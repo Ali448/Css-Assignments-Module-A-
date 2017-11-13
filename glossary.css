@@ -1,0 +1,52 @@
+
+
+
+
+.settingMainHeading {
+    text-align: center;
+    color: red;
+    font-size: 72px;
+}
+
+.settingList {
+    width: 90%;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.settingList li {
+    padding: 8px;
+}
+
+.settingList a {
+    border-right: 2px solid black;
+    text-transform: uppercase;
+    font-size: 24px;
+    padding-right: 9px;
+    text-decoration: none;
+}
+
+.settingList .settingLastLink {
+    border: none;
+}
+
+
+.settingHeading {
+    color: red;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 32px;
+}
+
+.settingWord {
+    background-color: #D4C8C8;
+    color: white;
+}
+
+@media only screen and (max-width: 414px) {
+    .settingList  {
+        justify-content: flex-start;
+    }
+}
